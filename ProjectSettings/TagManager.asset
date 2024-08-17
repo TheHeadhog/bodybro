@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Character
   - 
   - 
   - 
@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 2173087125
+    locked: 0
+  - name: Walls
+    uniqueID: 1887496733
+    locked: 0
+  - name: Character
+    uniqueID: 2052464379
     locked: 0
