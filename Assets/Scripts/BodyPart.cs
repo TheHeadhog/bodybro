@@ -9,7 +9,7 @@ public class BodyPart : MonoBehaviour
         public Sprite sprite;
     }
 
-    [SerializeField] private float growthStat = 0;
+    [SerializeField] public float growthStat = 0;
     [SerializeField] private SpriteForStat[] spritesForStat;
     private SpriteRenderer spriteRenderer;
 
