@@ -15,7 +15,7 @@ public class BodyPart : MonoBehaviour
 
     public void ApplyModifier(float modifier)
     {
-        growthStat += modifier;
+        growthStat = Mathf.Clamp(growthStat+modifier,0,5);
     }
 
     private void UpdateSprite()
