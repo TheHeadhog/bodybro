@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class PlayerBody : MonoBehaviour
 {
     [SerializeField] private BodyPart head;
     [SerializeField] private BodyPart core;

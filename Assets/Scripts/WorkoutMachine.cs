@@ -1,4 +1,4 @@
 public interface IWorkoutMachine
 {
-    TrainingData Train();
+    void Train(ref PlayerBody body);
 }
