@@ -13,7 +13,7 @@ public class PlayerBody : MonoBehaviour
     [SerializeField] private BodyPart leftCalf;
     [SerializeField] private BodyPart rightCalf;
 
-    private void ApplyModifiers(TrainingData training)
+    public void ApplyModifiers(TrainingData training)
     {
         head.ApplyModifier(training.HeadModifier);
         core.ApplyModifier(training.CoreModifier);
@@ -29,24 +29,5 @@ public class PlayerBody : MonoBehaviour
         rightQuad.ApplyModifier(training.RightQuadModifier);
         leftCalf.ApplyModifier(training.LeftCalfModifier);
         rightCalf.ApplyModifier(training.RightCalfModifier);
-    }
-
-    void Update()
-    {
-        // ApplyModifiers Test
-        if(Input.GetKeyDown(KeyCode.B))
-        {
-            print("B pressed");
-            TrainingData data = new TrainingData();
-            data.HeadModifier = 1.0f;
-            ApplyModifiers(data);
-        }
-        else if(Input.GetKeyDown(KeyCode.A))
-        {
-            print("A pressed");
-            TrainingData data = new TrainingData();
-            data.HeadModifier = -1.0f;
-            ApplyModifiers(data);
-        }
     }
 }
