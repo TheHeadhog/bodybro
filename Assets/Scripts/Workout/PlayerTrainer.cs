@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerTrainer : MonoBehaviour
 {
     [SerializeField] private PlayerBody body;
-    private WorkoutMachine closestMachine;
+    [SerializeField] private KeyCode inputWorkout = KeyCode.B;
+    private Workout closestWorkout;
 
     private bool isInWorkout = false;
 
@@ -17,30 +18,29 @@ public class PlayerTrainer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(closestMachine != null)
+        if(closestWorkout != null)
         {
-            // Press B to start workout
-            if(Input.GetKeyDown(KeyCode.B))
+            if(Input.GetKeyDown(inputWorkout))
             {
-                closestMachine.Train(body);
+                closestWorkout.StartWorkout(body);
             }
         }
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
-        WorkoutMachine machine = col.GetComponent<WorkoutMachine>();
+        Workout machine = col.GetComponent<Workout>();
         if(machine != null)
         {
             print("Collided with a machine");
-            closestMachine = machine;
+            closestWorkout = machine;
         }
     }
     private void OnTriggerExit2D(Collider2D col)
     {
-        WorkoutMachine machine = col.GetComponent<WorkoutMachine>();
-        if(machine == closestMachine)
+        Workout machine = col.GetComponent<Workout>();
+        if(machine == closestWorkout)
         {
-            closestMachine = null;
+            closestWorkout = null;
         }
     }
 }
