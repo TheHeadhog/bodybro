@@ -379,22 +379,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 166241769}
     m_Modifications:
-    - target: {fileID: 1986756675817247291, guid: 31a4e934dfa1c3a4e954268e1d0ef10f, type: 3}
-      propertyPath: spritesForStat.Array.data[1].limit
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1986756675817247291, guid: 31a4e934dfa1c3a4e954268e1d0ef10f, type: 3}
-      propertyPath: spritesForStat.Array.data[2].limit
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1986756675817247291, guid: 31a4e934dfa1c3a4e954268e1d0ef10f, type: 3}
-      propertyPath: spritesForStat.Array.data[1].sprite
-      value: 
-      objectReference: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 1986756675817247291, guid: 31a4e934dfa1c3a4e954268e1d0ef10f, type: 3}
-      propertyPath: spritesForStat.Array.data[2].sprite
-      value: 
-      objectReference: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 4875803285514535527, guid: 31a4e934dfa1c3a4e954268e1d0ef10f, type: 3}
       propertyPath: m_Name
       value: PlayerBody1
@@ -962,26 +946,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 166241769}
     m_Modifications:
-    - target: {fileID: 1986756675817247291, guid: 31a4e934dfa1c3a4e954268e1d0ef10f, type: 3}
-      propertyPath: spritesForStat.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1986756675817247291, guid: 31a4e934dfa1c3a4e954268e1d0ef10f, type: 3}
-      propertyPath: spritesForStat.Array.data[1].limit
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1986756675817247291, guid: 31a4e934dfa1c3a4e954268e1d0ef10f, type: 3}
-      propertyPath: spritesForStat.Array.data[2].limit
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1986756675817247291, guid: 31a4e934dfa1c3a4e954268e1d0ef10f, type: 3}
-      propertyPath: spritesForStat.Array.data[1].sprite
-      value: 
-      objectReference: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 1986756675817247291, guid: 31a4e934dfa1c3a4e954268e1d0ef10f, type: 3}
-      propertyPath: spritesForStat.Array.data[2].sprite
-      value: 
-      objectReference: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 4875803285514535527, guid: 31a4e934dfa1c3a4e954268e1d0ef10f, type: 3}
       propertyPath: m_Name
       value: PlayerBody2

@@ -101,6 +101,14 @@ MonoBehaviour:
   spritesForStat:
   - limit: 0
     sprite: {fileID: 21300000, guid: 3879583b2738f8a4d8a462143141988a, type: 3}
+  - limit: 1
+    sprite: {fileID: 21300000, guid: 98121520edeeae04fb1bbcb8afdd9866, type: 3}
+  - limit: 2
+    sprite: {fileID: 21300000, guid: 30f4b16b4c460f645a612108ae4f6bf6, type: 3}
+  - limit: 3
+    sprite: {fileID: 21300000, guid: 10462af975831a1459aad1cf16b108f6, type: 3}
+  - limit: 4
+    sprite: {fileID: 21300000, guid: ecfd7c8de5be0674382622e1cd2f9c73, type: 3}
 --- !u!1 &446049158422413454
 GameObject:
   m_ObjectHideFlags: 0
@@ -202,6 +210,14 @@ MonoBehaviour:
   spritesForStat:
   - limit: 0
     sprite: {fileID: 21300000, guid: 453172901bf3a16498f4c2cd01d756bf, type: 3}
+  - limit: 1
+    sprite: {fileID: 21300000, guid: 8e1a660ce64791746a8749225ceabb65, type: 3}
+  - limit: 2
+    sprite: {fileID: 21300000, guid: c492b4cf653bf7740a2223fb8d597a94, type: 3}
+  - limit: 3
+    sprite: {fileID: 21300000, guid: 68ab0b12be03bdc4c8ce8dc84e2d2361, type: 3}
+  - limit: 4
+    sprite: {fileID: 21300000, guid: 1b23a21c31a1b0d44a37096be7040295, type: 3}
 --- !u!1 &2607763388665747950
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +319,14 @@ MonoBehaviour:
   spritesForStat:
   - limit: 0
     sprite: {fileID: 21300000, guid: 453172901bf3a16498f4c2cd01d756bf, type: 3}
+  - limit: 1
+    sprite: {fileID: 21300000, guid: 8e1a660ce64791746a8749225ceabb65, type: 3}
+  - limit: 2
+    sprite: {fileID: 21300000, guid: c492b4cf653bf7740a2223fb8d597a94, type: 3}
+  - limit: 3
+    sprite: {fileID: 21300000, guid: 68ab0b12be03bdc4c8ce8dc84e2d2361, type: 3}
+  - limit: 4
+    sprite: {fileID: 21300000, guid: 1b23a21c31a1b0d44a37096be7040295, type: 3}
 --- !u!1 &3273322310648725512
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,6 +429,12 @@ MonoBehaviour:
   - limit: 0
     sprite: {fileID: 21300000, guid: 0668f079e9eeb38479a91c8166a25813, type: 3}
   - limit: 1
+    sprite: {fileID: 21300000, guid: 5cb80a2563661e74799a2f45481e4690, type: 3}
+  - limit: 2
+    sprite: {fileID: 21300000, guid: a4e0e4f72737bfd4aa81efd5c20d080c, type: 3}
+  - limit: 3
+    sprite: {fileID: 21300000, guid: 6b2f9f0ae038fa044b9639729cd48c9d, type: 3}
+  - limit: 4
     sprite: {fileID: 21300000, guid: e1dac83c699b2b742bd5c65bb64d3c02, type: 3}
 --- !u!1 &4782003436024819171
 GameObject:
@@ -507,6 +537,14 @@ MonoBehaviour:
   spritesForStat:
   - limit: 0
     sprite: {fileID: 21300000, guid: 67715766ccad44243a6dc4265f8d425e, type: 3}
+  - limit: 1
+    sprite: {fileID: 21300000, guid: 2f35c9b694a5bbd4ebfae415ec19d1e5, type: 3}
+  - limit: 2
+    sprite: {fileID: 21300000, guid: ca4057b4c024c3245ba58c4b96fed75e, type: 3}
+  - limit: 3
+    sprite: {fileID: 21300000, guid: d183163d46adc98489e461a58db905c4, type: 3}
+  - limit: 4
+    sprite: {fileID: 21300000, guid: 83165a4165ceef644be719e5736ca416, type: 3}
 --- !u!1 &4875803285514535527
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,6 +710,14 @@ MonoBehaviour:
   spritesForStat:
   - limit: 0
     sprite: {fileID: 21300000, guid: 24e2394b820b691419543eb691492b3c, type: 3}
+  - limit: 1
+    sprite: {fileID: 21300000, guid: 2fa0d66362c9ed842a04b7f5ea22d997, type: 3}
+  - limit: 2
+    sprite: {fileID: 21300000, guid: 4a5964e64f9f8e04e923e5eebf699a64, type: 3}
+  - limit: 3
+    sprite: {fileID: 21300000, guid: a80c8260f88ff07488a75c982ad3296c, type: 3}
+  - limit: 4
+    sprite: {fileID: 21300000, guid: 800fee41c5557914091019fed9ed2a8c, type: 3}
 --- !u!1 &6548829186963493976
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,6 +819,14 @@ MonoBehaviour:
   spritesForStat:
   - limit: 0
     sprite: {fileID: 21300000, guid: 1854edc760d83d14bbf08d4935071eaa, type: 3}
+  - limit: 1
+    sprite: {fileID: 21300000, guid: 3d72f3ba722df4d4583c6781ce5d2bf8, type: 3}
+  - limit: 2
+    sprite: {fileID: 21300000, guid: 37db487629934e042be1a49c6d6760bf, type: 3}
+  - limit: 3
+    sprite: {fileID: 21300000, guid: b46f3be6eca4b4845856ae693590cf95, type: 3}
+  - limit: 4
+    sprite: {fileID: 21300000, guid: 485b651434d27574d9355068a5fc73d6, type: 3}
 --- !u!1 &6640177610165962634
 GameObject:
   m_ObjectHideFlags: 0
@@ -874,6 +928,14 @@ MonoBehaviour:
   spritesForStat:
   - limit: 0
     sprite: {fileID: 21300000, guid: 1854edc760d83d14bbf08d4935071eaa, type: 3}
+  - limit: 1
+    sprite: {fileID: 21300000, guid: 3d72f3ba722df4d4583c6781ce5d2bf8, type: 3}
+  - limit: 2
+    sprite: {fileID: 21300000, guid: 37db487629934e042be1a49c6d6760bf, type: 3}
+  - limit: 3
+    sprite: {fileID: 21300000, guid: b46f3be6eca4b4845856ae693590cf95, type: 3}
+  - limit: 4
+    sprite: {fileID: 21300000, guid: 485b651434d27574d9355068a5fc73d6, type: 3}
 --- !u!1 &7883133964863230244
 GameObject:
   m_ObjectHideFlags: 0
@@ -975,6 +1037,14 @@ MonoBehaviour:
   spritesForStat:
   - limit: 0
     sprite: {fileID: 21300000, guid: 3879583b2738f8a4d8a462143141988a, type: 3}
+  - limit: 1
+    sprite: {fileID: 21300000, guid: 98121520edeeae04fb1bbcb8afdd9866, type: 3}
+  - limit: 2
+    sprite: {fileID: 21300000, guid: 30f4b16b4c460f645a612108ae4f6bf6, type: 3}
+  - limit: 3
+    sprite: {fileID: 21300000, guid: 10462af975831a1459aad1cf16b108f6, type: 3}
+  - limit: 4
+    sprite: {fileID: 21300000, guid: ecfd7c8de5be0674382622e1cd2f9c73, type: 3}
 --- !u!1 &8207383872014068076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,3 +1146,11 @@ MonoBehaviour:
   spritesForStat:
   - limit: 0
     sprite: {fileID: 21300000, guid: 67715766ccad44243a6dc4265f8d425e, type: 3}
+  - limit: 1
+    sprite: {fileID: 21300000, guid: 2f35c9b694a5bbd4ebfae415ec19d1e5, type: 3}
+  - limit: 2
+    sprite: {fileID: 21300000, guid: ca4057b4c024c3245ba58c4b96fed75e, type: 3}
+  - limit: 3
+    sprite: {fileID: 21300000, guid: d183163d46adc98489e461a58db905c4, type: 3}
+  - limit: 4
+    sprite: {fileID: 21300000, guid: 83165a4165ceef644be719e5736ca416, type: 3}
