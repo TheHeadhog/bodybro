@@ -869,7 +869,7 @@ PrefabInstance:
     - target: {fileID: 5705184866061271508, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: ab73f0e32372a41b68847a13063c0466, type: 3}
+      objectReference: {fileID: 8300000, guid: b8e0879bc5eb74ceb9a5d67381c4c627, type: 3}
     - target: {fileID: 6446162244749593828, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3060,7 +3060,7 @@ PrefabInstance:
     - target: {fileID: 5705184866061271508, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 9d31f499a83604f2486bce3e37d5c495, type: 3}
+      objectReference: {fileID: 8300000, guid: 7642a9128414c4678bf1914850b58763, type: 3}
     - target: {fileID: 6446162244749593828, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
       propertyPath: m_Sprite
       value: 
