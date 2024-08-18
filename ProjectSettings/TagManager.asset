@@ -11,6 +11,7 @@ TagManager:
   - PlayerTwoCutout
   - ProgressBar
   - Music
+  - PlayerVictoryLabel
   layers:
   - Default
   - TransparentFX

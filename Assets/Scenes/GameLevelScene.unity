@@ -177,10 +177,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1510199239}
     m_Modifications:
-    - target: {fileID: 4765086616293716944, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
-      propertyPath: m_Color.a
-      value: 0.69411767
-      objectReference: {fileID: 0}
     - target: {fileID: 8411973025051527144, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
       propertyPath: m_Name
       value: VictoryMenu
@@ -188,6 +184,10 @@ PrefabInstance:
     - target: {fileID: 8411973025051527144, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8561153876627543800, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
+      propertyPath: m_TagString
+      value: PlayerVictoryLabel
       objectReference: {fileID: 0}
     - target: {fileID: 8785119195096347488, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
       propertyPath: m_Pivot.x

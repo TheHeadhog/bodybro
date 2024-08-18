@@ -11,6 +11,9 @@ public class VictoryMenuManager : MonoBehaviour
     private List<GameObject> ObjectsToHide;
     [SerializeField]
     private List<GameObject> ObjectsToShow;
+
+    [SerializeField]
+    private TMP_Text ResultLabel;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.R))
@@ -32,21 +35,21 @@ public class VictoryMenuManager : MonoBehaviour
         }
     }
 
-    public void ShowWinner(int winner)
+    public void ShowWinner(int winner,int p1Points,int p2Points)
     {
         if (winner is 1)
         {
-            gameObject.transform.Find("Character1").localScale.Set(1.3f,1.3f,1.3f);
-            gameObject.transform.Find("PlayerVictoryLabel").gameObject.GetComponent<TMP_Text>().text = "PLAYER 1";
+            GameObject.FindGameObjectWithTag("PlayerVictoryLabel").GetComponent<TMP_Text>().text = "PLAYER 1";
         }
         else if (winner is 2)
         {
-            gameObject.transform.Find("Character2").localScale.Set(1.3f, 1.3f, 1.3f);
-            gameObject.transform.Find("PlayerVictoryLabel").gameObject.GetComponent<TMP_Text>().text = "PLAYER 2";
+            GameObject.FindGameObjectWithTag("PlayerVictoryLabel").GetComponent<TMP_Text>().text = "PLAYER 2";
         }
         else
         {
-            gameObject.transform.Find("PlayerVictoryLabel").gameObject.GetComponent<TMP_Text>().text = "BALANCED STRENGTH";
+            GameObject.FindGameObjectWithTag("PlayerVictoryLabel").GetComponent<TMP_Text>().text = "BALANCED STRENGTH";
         }
+
+        ResultLabel.text = $"{p2Points}:{p1Points}";
     }
 }

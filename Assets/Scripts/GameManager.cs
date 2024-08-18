@@ -32,9 +32,12 @@ public class GameManager : MonoBehaviour
         var playerOneDiff = playerOneBody.CalculateDifference(playerOneCutout);
         var playerTwoDiff = playerTwoBody.CalculateDifference(playerTwoCutout);
 
-        var winner = playerTwoDiff > playerOneDiff ? 1 : 2;
+        var winner = 0;
+        if (playerOneDiff < playerTwoDiff) winner = 1;
+        else if (playerTwoDiff < playerOneDiff) winner = 2;
+        
         victoryMenu.SetActive(true);
-        victoryMenu.GetComponent<VictoryMenuManager>().ShowWinner(winner);
+        victoryMenu.GetComponent<VictoryMenuManager>().ShowWinner(winner,(int)playerOneDiff,(int)playerTwoDiff);
         Debug.Log($"WINNER IS{(playerTwoDiff>playerOneDiff ? "player 1":"player 2")}");
     }
 }
