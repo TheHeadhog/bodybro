@@ -7,6 +7,8 @@ TagManager:
   - PlayerOneBody
   - PlayerOneCutout
   - GameManager
+  - PlayerTwoBody
+  - PlayerTwoCutout
   layers:
   - Default
   - TransparentFX

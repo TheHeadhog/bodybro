@@ -1,16 +1,21 @@
 
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     private PlayerBody playerOneBody;
-    private PlayerBody playerOneCutout;
+    private PlayerBody playerOneCutout; 
+    private PlayerBody playerTwoBody;
+    private PlayerBody playerTwoCutout;
     // Start is called before the first frame update
     void Start()
     {
         playerOneBody =GameObject.FindGameObjectWithTag("PlayerOneBody").GetComponent<PlayerBody>();
-        playerOneCutout =GameObject.FindGameObjectWithTag("PlayerOneCutout").GetComponent<PlayerBody>();
+        playerOneCutout =GameObject.FindGameObjectWithTag("PlayerOneCutout").GetComponent<PlayerBody>(); 
+        playerTwoBody =GameObject.FindGameObjectWithTag("PlayerTwoBody").GetComponent<PlayerBody>();
+        playerTwoCutout =GameObject.FindGameObjectWithTag("PlayerTwoCutout").GetComponent<PlayerBody>();
     }
 
     // Update is called once per frame
@@ -22,6 +27,8 @@ public class GameManager : MonoBehaviour
     public void DecideWinner()
     {
         var playerOneDiff = playerOneBody.CalculateDifference(playerOneCutout);
-        return;
+        var playerTwoDiff = playerTwoBody.CalculateDifference(playerTwoCutout);
+        
+        Debug.Log($"WINNER IS{(playerTwoDiff>playerOneDiff ? "player 1":"player 2")}");
     }
 }
