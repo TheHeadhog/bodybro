@@ -66,6 +66,7 @@ namespace Script
 
         private void FixedUpdate()
         {
+            if(!isRenderingEnabled)return;
             RigidBody.MovePosition(NewPosition());
         }
 

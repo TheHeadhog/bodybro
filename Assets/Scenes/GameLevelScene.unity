@@ -2381,7 +2381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c88e21173c66dd34ca9023c3e1e5dfd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimeRemaining: 15
+  TimeRemaining: 60
   CutoutGameObject1: {fileID: 1380751321}
   BodyGameObject1: {fileID: 514868553}
   CutoutBackgroundGameObject1: {fileID: 309081649}
