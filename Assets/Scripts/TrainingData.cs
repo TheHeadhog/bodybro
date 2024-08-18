@@ -1,4 +1,4 @@
-
+[System.Serializable]
 public class TrainingData
 {
     public float HeadModifier = 0.0f;

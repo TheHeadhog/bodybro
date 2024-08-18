@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HeadWorkout : Workout
+public class LegWorkout : Workout
 {
     public override void StartWorkout(PlayerBody body)
     {

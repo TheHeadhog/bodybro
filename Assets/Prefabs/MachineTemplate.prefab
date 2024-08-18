@@ -11,10 +11,8 @@ GameObject:
   - component: {fileID: 4270143367706569224}
   - component: {fileID: 7607292546059762911}
   - component: {fileID: 6446162244749593828}
-  - component: {fileID: 8608874152012939225}
-  - component: {fileID: 8178944164620404665}
   m_Layer: 6
-  m_Name: HeadMachine
+  m_Name: MachineTemplate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 5399234449592785556}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.48, y: 0.54, z: -0.054171067}
+  m_LocalPosition: {x: 2.8, y: 2.86, z: -0.054171067}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -67,18 +65,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.11149788, y: 0.16}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.96, y: 2.62}
+    oldSize: {x: 5.13, y: 2.57}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.0261385, y: 2.7650104}
+  m_Size: {x: 2.6110349, y: 1.7057687}
   m_EdgeRadius: 0
 --- !u!212 &6446162244749593828
 SpriteRenderer:
@@ -118,10 +116,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2052464379
+  m_SortingLayerID: -1341647515
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 026f695c59cf1fd45aa622b36d54320e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: df5b7c6edfd94c1418da7fc397517527, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -132,31 +130,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8608874152012939225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5399234449592785556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69607a6ff8b2eca44915133dd956d3e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  headModifier: 1
-  leftBicepsModifier: 0
-  rightBicepsModifier: 0
---- !u!114 &8178944164620404665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5399234449592785556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8399af95297e1e4facb46d306e853f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  workout: {fileID: 8608874152012939225}

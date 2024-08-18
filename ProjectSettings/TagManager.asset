@@ -47,6 +47,9 @@ TagManager:
   - name: Walls
     uniqueID: 1887496733
     locked: 0
+  - name: Machines
+    uniqueID: 2953319781
+    locked: 0
   - name: Character
     uniqueID: 2052464379
     locked: 0
