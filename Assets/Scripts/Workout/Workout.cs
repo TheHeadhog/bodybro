@@ -9,9 +9,12 @@ public class Workout : MonoBehaviour
 
     private Animator animator;
 
+    protected AudioSource audioSource;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
     public bool StartWorkout(PlayerTrainer trainer)
     {

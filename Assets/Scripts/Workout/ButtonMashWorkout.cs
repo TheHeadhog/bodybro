@@ -21,6 +21,7 @@ public class ButtonMashWorkout : Workout
 
         if(Input.GetKeyDown(activeTrainer.inputWorkout))
         {
+            audioSource.Play();
             if(buttonMashTarget <= buttonMashCount++)
             {
                 TrainingData data = trainingData;
