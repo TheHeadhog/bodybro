@@ -11,16 +11,32 @@ public class PlayerTrainer : MonoBehaviour
     [SerializeField] public int playerID = 1;
 
     private MovementController movement;
+
+    private CircleCollider2D circleCollider;
+    private CapsuleCollider2D capsuleCollider;
     private Workout closestWorkout;
 
     private void Awake()
     {
         movement = GetComponent<MovementController>();
+        circleCollider = GetComponent<CircleCollider2D>();
+        capsuleCollider = GetComponent<CapsuleCollider2D>();
+    }
+
+    private void SetEnablePlayer(bool enabled)
+    {
+        movement.enabled = enabled;
+        circleCollider.enabled = enabled;
+        capsuleCollider.enabled = enabled;
+        foreach(SpriteRenderer renderer in GetComponentsInChildren<SpriteRenderer>())
+        {
+            renderer.enabled = enabled;
+        }
     }
     public void WorkoutFinished()
     {
         print("Trainer ended the workout");
-        movement.enabled = true;
+        SetEnablePlayer(true);
     }
 
     // Update is called once per frame
@@ -32,7 +48,7 @@ public class PlayerTrainer : MonoBehaviour
             {
                 if(closestWorkout.StartWorkout(this))
                 {
-                    movement.enabled = false;
+                    SetEnablePlayer(false);
                 }
             }
         }
