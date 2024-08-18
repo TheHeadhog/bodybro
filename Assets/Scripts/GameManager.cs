@@ -9,6 +9,9 @@ public class GameManager : MonoBehaviour
     private PlayerBody playerOneCutout; 
     private PlayerBody playerTwoBody;
     private PlayerBody playerTwoCutout;
+
+    [SerializeField]
+    private GameObject victoryMenu;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +31,10 @@ public class GameManager : MonoBehaviour
     {
         var playerOneDiff = playerOneBody.CalculateDifference(playerOneCutout);
         var playerTwoDiff = playerTwoBody.CalculateDifference(playerTwoCutout);
-        
+
+        var winner = playerTwoDiff > playerOneDiff ? 1 : 2;
+        victoryMenu.SetActive(true);
+        victoryMenu.GetComponent<VictoryMenuManager>().ShowWinner(winner);
         Debug.Log($"WINNER IS{(playerTwoDiff>playerOneDiff ? "player 1":"player 2")}");
     }
 }

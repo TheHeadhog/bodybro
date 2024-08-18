@@ -30,4 +30,12 @@ public class VictoryMenuManager : MonoBehaviour
             toShow.SetActive(true);
         }
     }
+
+    public void ShowWinner(int winner)
+    {
+        if (winner is 1)
+        {
+            
+        }
+    }
 }
