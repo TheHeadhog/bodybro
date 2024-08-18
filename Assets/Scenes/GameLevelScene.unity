@@ -870,6 +870,26 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: b8e0879bc5eb74ceb9a5d67381c4c627, type: 3}
+    - target: {fileID: 6047463393347702427, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
+      propertyPath: trainingData.HeadModifier
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047463393347702427, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
+      propertyPath: trainingData.LeftBicepsModifier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047463393347702427, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
+      propertyPath: trainingData.LeftForearmModifier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047463393347702427, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
+      propertyPath: trainingData.RightBicepsModifier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047463393347702427, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
+      propertyPath: trainingData.RightForearmModifier
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6446162244749593828, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -884,9 +904,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5399234449592785556, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 491616555}
-    - targetCorrespondingSourceObject: {fileID: 5399234449592785556, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 491616559}
   m_SourcePrefab: {fileID: 100100000, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
 --- !u!1 &491616554 stripped
@@ -894,30 +911,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5399234449592785556, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
   m_PrefabInstance: {fileID: 491616553}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &491616555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 491616554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad8452d131b47034294e3656b1271ef8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trainingData:
-    HeadModifier: 0
-    CoreModifier: 0
-    LeftBicepsModifier: 1
-    RightBicepsModifier: 1
-    LeftForearmModifier: 1
-    RightForearmModifier: 1
-    LeftQuadModifier: 0
-    RightQuadModifier: 0
-    LeftCalfModifier: 0
-    RightCalfModifier: 0
-  buttonMashTarget: 10
 --- !u!95 &491616559
 Animator:
   serializedVersion: 5
@@ -1245,6 +1238,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.08
       objectReference: {fileID: 0}
+    - target: {fileID: 6047463393347702427, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
+      propertyPath: trainingData.CoreModifier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047463393347702427, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
+      propertyPath: trainingData.HeadModifier
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6446162244749593828, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1259,9 +1260,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5399234449592785556, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1001654578}
-    - targetCorrespondingSourceObject: {fileID: 5399234449592785556, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1001654582}
   m_SourcePrefab: {fileID: 100100000, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
 --- !u!1 &1001654577 stripped
@@ -1269,30 +1267,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5399234449592785556, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
   m_PrefabInstance: {fileID: 1001654576}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1001654578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1001654577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad8452d131b47034294e3656b1271ef8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trainingData:
-    HeadModifier: 0
-    CoreModifier: 1
-    LeftBicepsModifier: 0
-    RightBicepsModifier: 0
-    LeftForearmModifier: 0
-    RightForearmModifier: 0
-    LeftQuadModifier: 0
-    RightQuadModifier: 0
-    LeftCalfModifier: 0
-    RightCalfModifier: 0
-  buttonMashTarget: 10
 --- !u!95 &1001654582
 Animator:
   serializedVersion: 5
@@ -3004,6 +2978,26 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 7642a9128414c4678bf1914850b58763, type: 3}
+    - target: {fileID: 6047463393347702427, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
+      propertyPath: trainingData.HeadModifier
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047463393347702427, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
+      propertyPath: trainingData.LeftCalfModifier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047463393347702427, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
+      propertyPath: trainingData.LeftQuadModifier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047463393347702427, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
+      propertyPath: trainingData.RightCalfModifier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6047463393347702427, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
+      propertyPath: trainingData.RightQuadModifier
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6446162244749593828, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3018,9 +3012,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5399234449592785556, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2033333738}
-    - targetCorrespondingSourceObject: {fileID: 5399234449592785556, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 2033333742}
   m_SourcePrefab: {fileID: 100100000, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
 --- !u!1 &2033333737 stripped
@@ -3028,30 +3019,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5399234449592785556, guid: 9cb38d4ac29002541ab5e3e05178e155, type: 3}
   m_PrefabInstance: {fileID: 2033333736}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2033333738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2033333737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad8452d131b47034294e3656b1271ef8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trainingData:
-    HeadModifier: 0
-    CoreModifier: 0
-    LeftBicepsModifier: 0
-    RightBicepsModifier: 0
-    LeftForearmModifier: 0
-    RightForearmModifier: 0
-    LeftQuadModifier: 1
-    RightQuadModifier: 1
-    LeftCalfModifier: 1
-    RightCalfModifier: 1
-  buttonMashTarget: 10
 --- !u!95 &2033333742
 Animator:
   serializedVersion: 5

@@ -36,7 +36,6 @@ public class PlayerBody : MonoBehaviour
 
         // Legs
         var legModifier = RandomizeModifier(training.LeftQuadModifier);
-        core.ApplyModifier(legModifier);
         leftQuad.ApplyModifier(legModifier);
         rightQuad.ApplyModifier(legModifier);
         leftCalf.ApplyModifier(legModifier);
