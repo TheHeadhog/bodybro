@@ -9,9 +9,12 @@ public class Workout : MonoBehaviour
 
     private SpriteRenderer machineSprite;
 
+    private Animator animator;
+
     private void Awake()
     {
         machineSprite = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
     public bool StartWorkout(PlayerTrainer trainer)
     {
@@ -21,7 +24,15 @@ public class Workout : MonoBehaviour
         }
 
         activeTrainer = trainer;
-        machineSprite.enabled = false;
+        // machineSprite.enabled = false;
+        if(trainer.playerID == 1)
+        {
+            animator.SetTrigger("StartWorkoutP1");
+        }
+        else
+        {
+            animator.SetTrigger("StartWorkoutP2");
+        }
 
         return true;
     }
@@ -30,6 +41,7 @@ public class Workout : MonoBehaviour
     {
         activeTrainer.WorkoutFinished();
         activeTrainer = null;
-        machineSprite.enabled = true;
+        animator.SetTrigger("EndWorkout");
+        // machineSprite.enabled = true;
     }
 }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6fd69c4a514075d40b5439370ccfebe4
+guid: 0ca6dda4dd1f7354683f1d54a05df074
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,10 +123,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BlueBroDown_1
+      name: RedBroDown_1
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 385
         width: 128
         height: 128
@@ -137,17 +137,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c549dd9863b0149b8ee83136ebd5d0
-      internalID: 2135584119
+      spriteID: 07e90900f88835842b4dadf74d48567a
+      internalID: -378396327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlueBroUp_1
+      name: RedBroUp_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 129
         y: 385
         width: 128
         height: 128
@@ -158,17 +158,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfbdb9920e06d0d47a2e3029fd58148e
-      internalID: 637234816
+      spriteID: 0a233db90ac7d104eb526174037029b2
+      internalID: -2071277034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlueBroRight_1
+      name: RedBroRight_1
       rect:
         serializedVersion: 2
-        x: 257
+        x: 256
         y: 385
         width: 128
         height: 128
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e45e220fb30edd848bde166d2b4aa978
-      internalID: 210396207
+      spriteID: 20d4d0ad8bf39cb4b93798688180f153
+      internalID: 1239436981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlueBroLeft_1
+      name: RedBroLeft_1
       rect:
         serializedVersion: 2
         x: 384
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e51a759ae8b2e544a376f09d38a410e
-      internalID: -392698674
+      spriteID: 5e39ac0d80cfadf4ba4fb232307da1c8
+      internalID: -1998736859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlueBroDown_2
+      name: RedBroDown_2
       rect:
         serializedVersion: 2
         x: 0
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2653cbc5a72b7b4db284acd5a7f4601
-      internalID: -476493848
+      spriteID: 0aafc81bab49c6e418838dbb3fdfd0cf
+      internalID: -219659964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlueBroUp_2
+      name: RedBroUp_2
       rect:
         serializedVersion: 2
         x: 128
@@ -242,17 +242,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a3b625a8fd111746adc507de91f37d1
-      internalID: -1212339508
+      spriteID: 9249f4ddb1c29f442a14afd55022694f
+      internalID: -7001727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlueBroRight_2
+      name: RedBroRight_2
       rect:
         serializedVersion: 2
-        x: 257
+        x: 256
         y: 257
         width: 128
         height: 128
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b1f5dacb6de44f409bff984f5e138c4
-      internalID: -432179469
+      spriteID: b3a92890877305d438753ff0a054316e
+      internalID: 1153749618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlueBroLeft_2
+      name: RedBroLeft_2
       rect:
         serializedVersion: 2
         x: 384
@@ -284,17 +284,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c05fa5b6955b2a40838c5c926bc911f
-      internalID: -541748294
+      spriteID: 7e8346f6a416c3440b1b07f4b9eb716b
+      internalID: 13487922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlueBroDown_3
+      name: RedBroDown_3
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 129
         width: 128
         height: 128
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef1fee833d4590249bdbd442a1645c53
-      internalID: -242968078
+      spriteID: d28b11ea175308145acef16a4fc02e70
+      internalID: -1457999443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlueBroUp_3
+      name: RedBroUp_3
       rect:
         serializedVersion: 2
         x: 128
@@ -326,18 +326,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 241ed4a25c4983044b04d82f2f51a986
-      internalID: 1685605513
+      spriteID: ea54d65b713661b478b233f83ed790ab
+      internalID: -1589497439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlueBroRight_3
+      name: RedBroRight_3
       rect:
         serializedVersion: 2
-        x: 258
-        y: 128
+        x: 256
+        y: 129
         width: 128
         height: 128
       alignment: 0
@@ -347,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16df6759ded8a214e8838f790aa09c1e
-      internalID: -1040865514
+      spriteID: f7b9c936f055ef648b23df067c4df15a
+      internalID: -601152221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlueBroLeft_3
+      name: RedBroLeft_3
       rect:
         serializedVersion: 2
         x: 384
@@ -368,8 +368,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c61641e1fc1081141962862b5ca6393f
-      internalID: 1224074123
+      spriteID: 364ffaa0fd4b37f45a286a1533d6bc88
+      internalID: 1939563658
       vertices: []
       indices: 
       edges: []
@@ -385,18 +385,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BlueBroDown_1: 2135584119
-      BlueBroDown_2: -476493848
-      BlueBroDown_3: -242968078
-      BlueBroLeft_1: -392698674
-      BlueBroLeft_2: -541748294
-      BlueBroLeft_3: 1224074123
-      BlueBroRight_1: 210396207
-      BlueBroRight_2: -432179469
-      BlueBroRight_3: -1040865514
-      BlueBroUp_1: 637234816
-      BlueBroUp_2: -1212339508
-      BlueBroUp_3: 1685605513
+      RedBroDown_1: -378396327
+      RedBroDown_2: -219659964
+      RedBroDown_3: -1457999443
+      RedBroLeft_1: -1998736859
+      RedBroLeft_2: 13487922
+      RedBroLeft_3: 1939563658
+      RedBroRight_1: 1239436981
+      RedBroRight_2: 1153749618
+      RedBroRight_3: -601152221
+      RedBroUp_1: -2071277034
+      RedBroUp_2: -7001727
+      RedBroUp_3: -1589497439
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

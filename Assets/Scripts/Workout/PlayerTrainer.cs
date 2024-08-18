@@ -8,6 +8,7 @@ public class PlayerTrainer : MonoBehaviour
     [SerializeField] public PlayerBody body;
     [SerializeField] public KeyCode inputBeginWorkout = KeyCode.B;
     [SerializeField] public KeyCode inputWorkout = KeyCode.B;
+    [SerializeField] public int playerID = 1;
 
     private MovementController movement;
     private Workout closestWorkout;
