@@ -6,6 +6,12 @@ public class ButtonMashWorkout : Workout
 
     private int buttonMashCount = 0;
 
+    private ProgressBar progressBar;
+
+    private void Awake()
+    {
+        progressBar = GetComponentInChildren<ProgressBar>();
+    }
     private void Update()
     {
         if(activeTrainer == null)
@@ -24,5 +30,10 @@ public class ButtonMashWorkout : Workout
                 EndWorkout();
             }
         }
+
+        float target = buttonMashTarget;
+        float progress = buttonMashCount;
+
+        progressBar.SetProgress(progress / target);
     }
 }
