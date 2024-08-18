@@ -183,7 +183,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8411973025051527144, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8785119195096347488, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
       propertyPath: m_Pivot.x
@@ -211,11 +211,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8785119195096347488, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 600
+      value: 1920
       objectReference: {fileID: 0}
     - target: {fileID: 8785119195096347488, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 400
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 8785119195096347488, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -266,14 +266,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9216758358909002381, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
-      propertyPath: ObjectsToHide.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9216758358909002381, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
-      propertyPath: ObjectsToShow.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9216758358909002381, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
       propertyPath: ObjectsToHide.Array.data[0]
       value: 
       objectReference: {fileID: 364793045}
@@ -281,10 +273,6 @@ PrefabInstance:
       propertyPath: ObjectsToHide.Array.data[1]
       value: 
       objectReference: {fileID: 1535931554}
-    - target: {fileID: 9216758358909002381, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
-      propertyPath: ObjectsToHide.Array.data[2]
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 9216758358909002381, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
       propertyPath: ObjectsToShow.Array.data[0]
       value: 
@@ -2389,7 +2377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c88e21173c66dd34ca9023c3e1e5dfd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimeRemaining: 60
+  TimeRemaining: 15
   CutoutGameObject1: {fileID: 1380751321}
   BodyGameObject1: {fileID: 514868553}
   CutoutBackgroundGameObject1: {fileID: 309081649}
