@@ -30,7 +30,7 @@ public class TimeManager : MonoBehaviour
         // if (!TriggeredTransitionOfBody && TimeRemaining <= 55) SetBodyActive(true);
         
         TimeRemaining -= Time.deltaTime;
-        TimerLabel.text = TimeSpan.FromSeconds(TimeRemaining).ToString(@"mm\:ss");
+        TimerLabel.text = TimeSpan.FromSeconds(TimeRemaining).ToString(@"ss\s");
         if (!(TimeRemaining <= 0)) return;
 
         GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>().DecideWinner();
