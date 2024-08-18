@@ -46,4 +46,20 @@ public class PlayerBody : MonoBehaviour
         leftCalf.growthStat = rand.Next(0, 6);
         rightCalf.growthStat = rand.Next(0, 6);
     }
+
+    public float CalculateDifference(PlayerBody other)
+    {
+        var differnece = 0f;
+        differnece += Mathf.Abs(other.head.growthStat - head.growthStat);
+        differnece += Mathf.Abs(other.core.growthStat - core.growthStat);
+        differnece += Mathf.Abs(other.leftBicep.growthStat - leftBicep.growthStat);
+        differnece += Mathf.Abs(other.rightBicep.growthStat - rightBicep.growthStat);
+        differnece += Mathf.Abs(other.leftForearm.growthStat - leftForearm.growthStat);
+        differnece += Mathf.Abs(other.rightForearm.growthStat - rightForearm.growthStat);
+        differnece += Mathf.Abs(other.leftQuad.growthStat - leftQuad.growthStat);
+        differnece += Mathf.Abs(other.rightQuad.growthStat - rightQuad.growthStat);
+        differnece += Mathf.Abs(other.leftCalf.growthStat - leftCalf.growthStat);
+        differnece += Mathf.Abs(other.rightCalf.growthStat - rightCalf.growthStat);
+        return differnece;
+    }
 }

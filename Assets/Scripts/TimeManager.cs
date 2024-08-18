@@ -2,7 +2,7 @@ using System;
 using TMPro;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class TimeManager : MonoBehaviour
 {
     [SerializeField] private float TimeRemaining;
     private TMP_Text TimerLabel;
@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
     {
         TimeRemaining -= Time.deltaTime;
         TimerLabel.text = TimeSpan.FromSeconds(TimeRemaining).ToString(@"mm\:ss");
-        if (TimeRemaining <= 0) Time.timeScale = 0f;
+        if (!(TimeRemaining <= 0)) return;
+
+        GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>().DecideWinner();
+        Time.timeScale = 0f;
     }
 }
