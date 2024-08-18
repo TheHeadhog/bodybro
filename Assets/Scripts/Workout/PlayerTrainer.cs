@@ -25,13 +25,9 @@ public class PlayerTrainer : MonoBehaviour
 
     private void SetEnablePlayer(bool enabled)
     {
-        movement.enabled = enabled;
         circleCollider.enabled = enabled;
         capsuleCollider.enabled = enabled;
-        foreach(SpriteRenderer renderer in GetComponentsInChildren<SpriteRenderer>())
-        {
-            renderer.enabled = enabled;
-        }
+        movement.SetEnableRendering(enabled);
     }
     public void WorkoutFinished()
     {

@@ -9,7 +9,7 @@ public class Workout : MonoBehaviour
 
     private Animator animator;
 
-    private void Awake()
+    private void Start()
     {
         animator = GetComponent<Animator>();
     }

@@ -19,6 +19,7 @@ namespace Script
         public AnimatedSpriteRenderer spriteRendererLeft;
         public AnimatedSpriteRenderer spriteRendererRight;
         private AnimatedSpriteRenderer activeSpriteRenderer;
+        private bool isRenderingEnabled=true;
 
         private void Awake()
         {
@@ -26,8 +27,14 @@ namespace Script
             activeSpriteRenderer = spriteRendererDown;
         }
 
+        public void SetEnableRendering(bool value)
+        {
+            activeSpriteRenderer.enabled = value;
+            isRenderingEnabled = value;
+        }
         private void Update()
         {
+            if(!isRenderingEnabled) return;
             UpdateMovementDirection();
         }
     
