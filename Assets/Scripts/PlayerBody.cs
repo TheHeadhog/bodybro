@@ -1,4 +1,5 @@
 using UnityEngine;
+using Random = System.Random;
 
 public class PlayerBody : MonoBehaviour
 {
@@ -29,5 +30,20 @@ public class PlayerBody : MonoBehaviour
         rightQuad.ApplyModifier(training.RightQuadModifier);
         leftCalf.ApplyModifier(training.LeftCalfModifier);
         rightCalf.ApplyModifier(training.RightCalfModifier);
+    }
+
+    public void RandomizeStats()
+    {
+        var rand = new Random();
+        head.growthStat = rand.Next(0, 6);
+        core.growthStat = rand.Next(0, 6);
+        leftBicep.growthStat = rand.Next(0, 6);
+        rightBicep.growthStat = rand.Next(0, 6);
+        leftForearm.growthStat = rand.Next(0, 6);
+        rightForearm.growthStat = rand.Next(0, 6);
+        leftQuad.growthStat = rand.Next(0, 6);
+        rightQuad.growthStat = rand.Next(0, 6);
+        leftCalf.growthStat = rand.Next(0, 6);
+        rightCalf.growthStat = rand.Next(0, 6);
     }
 }
