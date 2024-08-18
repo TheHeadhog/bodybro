@@ -9,6 +9,8 @@ TagManager:
   - GameManager
   - PlayerTwoBody
   - PlayerTwoCutout
+  - ProgressBar
+  - Music
   layers:
   - Default
   - TransparentFX

@@ -8,7 +8,7 @@ public class StartMenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        DontDestroyOnLoad(GameObject.FindGameObjectWithTag("Music"));
     }
 
     // Update is called once per frame
