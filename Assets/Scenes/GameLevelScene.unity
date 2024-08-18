@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VictoryMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 8411973025051527144, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8785119195096347488, guid: 05030722f1ebd594c999c2086ab8f9aa, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -496,6 +500,10 @@ PrefabInstance:
       objectReference: {fileID: 1415716240}
     - target: {fileID: 602977939770641925, guid: 09e5c41e9679e1449b2a1dd1fe622c82, type: 3}
       propertyPath: inputWorkout
+      value: 114
+      objectReference: {fileID: 0}
+    - target: {fileID: 602977939770641925, guid: 09e5c41e9679e1449b2a1dd1fe622c82, type: 3}
+      propertyPath: inputBeginWorkout
       value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 2290259178940625429, guid: 09e5c41e9679e1449b2a1dd1fe622c82, type: 3}
@@ -778,7 +786,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 491616554}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 284bac065ad2f694e939b4529e626d93, type: 3}
+  m_Script: {fileID: 11500000, guid: ad8452d131b47034294e3656b1271ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   trainingData:
@@ -792,6 +800,7 @@ MonoBehaviour:
     RightQuadModifier: 0
     LeftCalfModifier: 0
     RightCalfModifier: 0
+  buttonMashTarget: 10
 --- !u!1 &544265118
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,7 +1078,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1001654577}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b911751df046134496ad145741ef270, type: 3}
+  m_Script: {fileID: 11500000, guid: ad8452d131b47034294e3656b1271ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   trainingData:
@@ -1083,6 +1092,7 @@ MonoBehaviour:
     RightQuadModifier: 0
     LeftCalfModifier: 0
     RightCalfModifier: 0
+  buttonMashTarget: 10
 --- !u!1001 &1053663857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2004,6 +2014,10 @@ PrefabInstance:
       objectReference: {fileID: 1053663859}
     - target: {fileID: 602977939770641925, guid: 09e5c41e9679e1449b2a1dd1fe622c82, type: 3}
       propertyPath: inputWorkout
+      value: 305
+      objectReference: {fileID: 0}
+    - target: {fileID: 602977939770641925, guid: 09e5c41e9679e1449b2a1dd1fe622c82, type: 3}
+      propertyPath: inputBeginWorkout
       value: 303
       objectReference: {fileID: 0}
     - target: {fileID: 2290259178940625429, guid: 09e5c41e9679e1449b2a1dd1fe622c82, type: 3}
@@ -2430,7 +2444,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1714657359}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69607a6ff8b2eca44915133dd956d3e1, type: 3}
+  m_Script: {fileID: 11500000, guid: ad8452d131b47034294e3656b1271ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   trainingData:
@@ -2444,6 +2458,7 @@ MonoBehaviour:
     RightQuadModifier: 0
     LeftCalfModifier: 0
     RightCalfModifier: 0
+  buttonMashTarget: 10
 --- !u!1 &1959556915
 GameObject:
   m_ObjectHideFlags: 0
@@ -2894,7 +2909,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2033333737}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61577d06396fa6c43a517e8f54184e1b, type: 3}
+  m_Script: {fileID: 11500000, guid: ad8452d131b47034294e3656b1271ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   trainingData:
@@ -2908,6 +2923,7 @@ MonoBehaviour:
     RightQuadModifier: 1
     LeftCalfModifier: 1
     RightCalfModifier: 1
+  buttonMashTarget: 10
 --- !u!1 &2099154799
 GameObject:
   m_ObjectHideFlags: 0

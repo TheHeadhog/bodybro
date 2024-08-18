@@ -1,18 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
+using Script;
 using UnityEngine;
 
 public class PlayerTrainer : MonoBehaviour
 {
-    [SerializeField] private PlayerBody body;
-    [SerializeField] private KeyCode inputWorkout = KeyCode.B;
+    [SerializeField] public PlayerBody body;
+    [SerializeField] public KeyCode inputBeginWorkout = KeyCode.B;
+    [SerializeField] public KeyCode inputWorkout = KeyCode.B;
+
+    private MovementController movement;
     private Workout closestWorkout;
 
-    private bool isInWorkout = false;
-
-    public bool IsInWorkout()
+    private void Awake()
     {
-        return isInWorkout;
+        movement = GetComponent<MovementController>();
+    }
+    public void WorkoutFinished()
+    {
+        print("Trainer ended the workout");
+        movement.enabled = true;
     }
 
     // Update is called once per frame
@@ -20,9 +27,12 @@ public class PlayerTrainer : MonoBehaviour
     {
         if(closestWorkout != null)
         {
-            if(Input.GetKeyDown(inputWorkout))
+            if(Input.GetKeyDown(inputBeginWorkout))
             {
-                closestWorkout.StartWorkout(body);
+                if(closestWorkout.StartWorkout(this))
+                {
+                    movement.enabled = false;
+                }
             }
         }
     }
@@ -31,7 +41,6 @@ public class PlayerTrainer : MonoBehaviour
         Workout machine = col.GetComponent<Workout>();
         if(machine != null)
         {
-            print("Collided with a machine");
             closestWorkout = machine;
         }
     }
