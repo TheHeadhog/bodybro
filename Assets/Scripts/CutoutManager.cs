@@ -14,6 +14,6 @@ public class CutoutManager : MonoBehaviour
     private void SetupCutoutBody()
     {
         cutoutBody = GetComponentInChildren<PlayerBody>();
-        cutoutBody.RandomizeStats();
+        cutoutBody.RandomizeCutoutStats();
     }
 }

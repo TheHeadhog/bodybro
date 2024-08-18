@@ -609,6 +609,8 @@ MonoBehaviour:
   rightQuad: {fileID: 1468282531222818544}
   leftCalf: {fileID: 419934088704091003}
   rightCalf: {fileID: 8406113515391469834}
+  DowngradeProbability: 0.2
+  UpgradeProbability: 0.5
 --- !u!1 &5824999165742868139
 GameObject:
   m_ObjectHideFlags: 0
