@@ -14,37 +14,50 @@ public class PlayerBody : MonoBehaviour
     [SerializeField] private BodyPart leftCalf;
     [SerializeField] private BodyPart rightCalf;
 
+    [SerializeField]
+    private float DowngradeProbability;
+
+    [SerializeField]
+    private float UpgradeProbability;
     public void ApplyModifiers(TrainingData training)
     {
-        head.ApplyModifier(training.HeadModifier);
-        core.ApplyModifier(training.CoreModifier);
+        var headModifier = RandomizeModifier(training.HeadModifier);
+        head.ApplyModifier(headModifier);
+
+        var coreModifier = RandomizeModifier(training.CoreModifier);
+        core.ApplyModifier(coreModifier);
 
         // Arms
-        leftBicep.ApplyModifier(training.LeftBicepsModifier);
-        rightBicep.ApplyModifier(training.RightBicepsModifier);
-        leftForearm.ApplyModifier(training.LeftForearmModifier);
-        rightForearm.ApplyModifier(training.RightForearmModifier);
+        var armModifier = RandomizeModifier(training.LeftBicepsModifier);
+        leftBicep.ApplyModifier(armModifier);
+        rightBicep.ApplyModifier(armModifier);
+        leftForearm.ApplyModifier(armModifier);
+        rightForearm.ApplyModifier(armModifier);
 
         // Legs
-        leftQuad.ApplyModifier(training.LeftQuadModifier);
-        rightQuad.ApplyModifier(training.RightQuadModifier);
-        leftCalf.ApplyModifier(training.LeftCalfModifier);
-        rightCalf.ApplyModifier(training.RightCalfModifier);
+        var legModifier = RandomizeModifier(training.LeftQuadModifier);
+        core.ApplyModifier(legModifier);
+        leftQuad.ApplyModifier(legModifier);
+        rightQuad.ApplyModifier(legModifier);
+        leftCalf.ApplyModifier(legModifier);
+        rightCalf.ApplyModifier(legModifier);
     }
 
-    public void RandomizeStats()
+    private float RandomizeModifier(float trainingModifier)
+    {
+        var modifier = trainingModifier;
+        if (modifier == 0 && UnityEngine.Random.Range(0f, 1f) < DowngradeProbability) modifier = -1;
+        else if (modifier == 1 && UnityEngine.Random.Range(0f, 1f) < UpgradeProbability) modifier = 2;
+        return modifier;
+    }
+
+    public void RandomizeCutoutStats()
     {
         var rand = new Random();
-        head.growthStat = rand.Next(0, 6);
-        core.growthStat = rand.Next(0, 6);
-        leftBicep.growthStat = rand.Next(0, 6);
-        rightBicep.growthStat = rand.Next(0, 6);
-        leftForearm.growthStat = rand.Next(0, 6);
-        rightForearm.growthStat = rand.Next(0, 6);
-        leftQuad.growthStat = rand.Next(0, 6);
-        rightQuad.growthStat = rand.Next(0, 6);
-        leftCalf.growthStat = rand.Next(0, 6);
-        rightCalf.growthStat = rand.Next(0, 6);
+        head.growthStat = rand.Next(2, 5);
+        core.growthStat = rand.Next(2, 5);
+        leftBicep.growthStat = leftForearm.growthStat = rightBicep.growthStat = rightForearm.growthStat = rand.Next(2, 5);
+        leftQuad.growthStat = leftCalf.growthStat = rightQuad.growthStat = rightCalf.growthStat = rand.Next(2, 5);
     }
 
     public float CalculateDifference(PlayerBody other)
