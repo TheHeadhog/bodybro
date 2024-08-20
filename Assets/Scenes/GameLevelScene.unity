@@ -378,12 +378,12 @@ SpriteRenderer:
   m_SortingLayerID: 1887496733
   m_SortingLayer: 2
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: a8fe8bb2912cf4712a9fdc940b55a88e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2abc893e3aa829b4fb165289256b439a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.43, y: 7.4}
+  m_Size: {x: 5.13, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2280,19 +2280,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 538123547413693346, guid: 09e5c41e9679e1449b2a1dd1fe622c82, type: 3}
       propertyPath: inputUp
-      value: 273
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 538123547413693346, guid: 09e5c41e9679e1449b2a1dd1fe622c82, type: 3}
       propertyPath: inputDown
-      value: 274
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 538123547413693346, guid: 09e5c41e9679e1449b2a1dd1fe622c82, type: 3}
       propertyPath: inputLeft
-      value: 276
+      value: 106
       objectReference: {fileID: 0}
     - target: {fileID: 538123547413693346, guid: 09e5c41e9679e1449b2a1dd1fe622c82, type: 3}
       propertyPath: inputRight
-      value: 275
+      value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 602977939770641925, guid: 09e5c41e9679e1449b2a1dd1fe622c82, type: 3}
       propertyPath: body
@@ -2304,11 +2304,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 602977939770641925, guid: 09e5c41e9679e1449b2a1dd1fe622c82, type: 3}
       propertyPath: inputWorkout
-      value: 305
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 602977939770641925, guid: 09e5c41e9679e1449b2a1dd1fe622c82, type: 3}
       propertyPath: inputBeginWorkout
-      value: 303
+      value: 111
       objectReference: {fileID: 0}
     - target: {fileID: 1754883247814500135, guid: 09e5c41e9679e1449b2a1dd1fe622c82, type: 3}
       propertyPath: m_Sprite
