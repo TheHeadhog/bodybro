@@ -47,7 +47,7 @@ public class VictoryMenuManager : MonoBehaviour
         }
         else
         {
-            GameObject.FindGameObjectWithTag("PlayerVictoryLabel").GetComponent<TMP_Text>().text = "BALANCED STRENGTH";
+            GameObject.FindGameObjectWithTag("PlayerVictoryLabel").GetComponent<TMP_Text>().text = "BALANCED\nSTRENGTH";
         }
 
         ResultLabel.text = $"{p2Points}:{p1Points}";
